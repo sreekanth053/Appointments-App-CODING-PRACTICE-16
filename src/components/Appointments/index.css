@@ -1,0 +1,116 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.main-bg-container {
+  padding: 30px;
+  width: 50%;
+  min-height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: white;
+}
+.row-styling {
+  display: flex;
+}
+.label-text {
+  font-size: 17px;
+  font-weight: 600;
+  color: #595c5e;
+}
+.input-element {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #595c5e;
+}
+
+.button {
+  background-color: #8b5cf6;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.display-image {
+  display: none;
+  width: 100%;
+}
+.line {
+  background-color: #595c5e;
+  color: #595c5e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 1px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-element {
+  font-size: 20px;
+  font-weight: 600;
+}
+.starred-button {
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #9897f0;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #9897f0;
+  background-color: transparent;
+  align-self: center;
+}
+.ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.get-starred-1 {
+  background-color: #8b5cf6;
+  color: white;
+}
+.get-starred-2 {
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .main-bg-container {
+    width: 100%;
+    padding: 50px;
+  }
+  .display-image {
+    display: flex;
+    width: 30%;
+
+    align-self: flex-end;
+  }
+  .card-container {
+    padding: 50px;
+  }
+
+  .row-styling {
+    justify-content: space-between;
+  }
+  .ul-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
